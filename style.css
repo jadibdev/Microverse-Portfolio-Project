@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-
 .mobile-main {
-  background-color: #F7F7F9;
+  background-color: #f7f7f9;
   position: relative;
   width: 375px;
   height: 5410px;
@@ -14,12 +13,12 @@
 }
 
 .my-logo {
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
-  color: #6070FF;
+  color: #6070ff;
   margin-top: 15px;
   margin-left: 18px;
   cursor: pointer;
@@ -35,19 +34,19 @@
   position: absolute;
   left: 24px;
   top: 114px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-  color: #172B4D;
+  color: #172b4d;
 }
 
 .headline-text {
   position: absolute;
   left: 24px;
   top: 300px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -59,12 +58,12 @@
   position: absolute;
   left: 24px;
   top: 455px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  color: #7F8CFF;
+  color: #7f8cff;
 }
 
 .social-media-icons {
@@ -97,4 +96,3 @@
 .victory-icon {
   cursor: pointer;
 }
-
