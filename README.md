@@ -15,7 +15,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Install
 
-Dowload this repository to your personal computer
+Download this repository to your personal computer
 
 ### Usage
 
