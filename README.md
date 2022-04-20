@@ -26,7 +26,7 @@ Run the index.html file in your favorite browser
 👤 **Mohamed Jadib**
 
 - GitHub: [@jadibdev](https://github.com/jadibdev)
-- Twitter: [@twitterhandle](https://twitter.com/MohamedJadib)
+- Twitter: [@jadibdev](https://twitter.com/MohamedJadib)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/mohamed-jadib-942a5041/)
 
 ## Show your support
