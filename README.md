@@ -2,7 +2,7 @@
 
 # Portfolio_Site
 
-> This is a portfolio website that will showcase many of the project I will be working on during the Microverse program.
+> This is a portfolio website that will showcase many of the projects I will be working on during the Microverse program.
 
 ## Built With
 
@@ -11,7 +11,7 @@
 
 ## Getting Started
 
-To get a local copy up and running follow these simple example steps.
+To get a local copy up and running follow these simple example steps:
 
 ### Install
 
@@ -26,7 +26,7 @@ Run the index.html file in your favorite browser
 👤 **Mohamed Jadib**
 
 - GitHub: [@jadibdev](https://github.com/jadibdev)
-- Twitter: [@jadibdev](https://twitter.com/MohamedJadib)
+- Twitter: [@MohamedJadib](https://twitter.com/MohamedJadib)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/mohamed-jadib-942a5041/)
 
 ## Show your support
