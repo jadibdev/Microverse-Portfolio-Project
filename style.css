@@ -88,16 +88,33 @@
   margin-top: 0;
 }
 
-
-.wrapper {
+.works {
+  border: 1px solid blue;
+  position: absolute;
+  width: 375px;
+  height: 2788px;
+  left: 0;
+  right: 0;
+  top: 718px;
   display: grid;
 }
 
-.wrapper div {
-  display: flex;
-  flex-direction: column;
-  border: 1px solid blue;
+.card {
   width: 327px;
   height: 552px;
+  border: 1px solid #DFE1E6;
   padding: 16px;
+
+  position: relative;
+  width: 327px;
+  height: 552px;
+  left: calc(50% - 327px/2);
+  top: 114px;
+  box-sizing: border-box;
+  border-radius: 16px;
+
+  display: flex;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
