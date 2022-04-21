@@ -87,3 +87,17 @@
   padding-left: 24px;
   margin-top: 0;
 }
+
+
+.wrapper {
+  display: grid;
+}
+
+.wrapper div {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid blue;
+  width: 327px;
+  height: 552px;
+  padding: 16px;
+}
