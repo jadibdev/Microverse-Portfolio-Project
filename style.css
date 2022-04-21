@@ -26,8 +26,9 @@
 
 .burger-menu {
   margin-top: 15px;
-  margin-right: 18px;
+  margin-right: 25px;
   cursor: pointer;
+  width: 16px;
 }
 
 .headline {
@@ -48,16 +49,17 @@
   top: 300px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: lighter;
   font-size: 16px;
   line-height: 24px;
   color: #344563;
+  width: 327px;
 }
 
 .lets-connect {
   position: absolute;
   left: 24px;
-  top: 455px;
+  top: 450px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -71,7 +73,7 @@
   width: 170.17px;
   height: 20px;
   left: 24px;
-  top: 500px;
+  top: 505px;
   display: flex;
   align-items: center;
   justify-content: space-between;
