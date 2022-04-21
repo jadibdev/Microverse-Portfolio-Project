@@ -85,26 +85,5 @@
   justify-content: space-between;
   list-style: none;
   padding-left: 24px;
-  margin-top: 0px;
+  margin-top: 0;
 }
-
-
-
-.victory-icon {
-  cursor: pointer;
-}
-
-.wrapper {
-  display: grid;
-}
-
-.wrapper div {
-  display: flex;
-  flex-direction: column;
-  border: 1px solid blue;
-  width: 327px;
-  height: 552px;
-  padding: 16px;
-}
-
-
