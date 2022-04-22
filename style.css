@@ -196,11 +196,28 @@
 
 .project-labels {
   margin-top: 7px;
+  padding-left: 0;
+  margin-bottom: 0;
+  display: flex;
+  list-style-type: none;
+}
+
+.project-labels li {
+  margin-right: 15px;
 }
 
 .see-project-button {
-  margin-top: 7px;
-  margin-bottom: 20px;
+  width: 124px;
+  height: 48px;
+  padding: 12px;
+  border: 1px solid #6070ff;
+  box-sizing: border-box;
+  border-radius: 8px;
+  margin-top: 15px;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #396df2;
 }
 
 .multi-line {
