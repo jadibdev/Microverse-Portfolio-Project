@@ -11,7 +11,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: white
+  background: white;
 }
 
 .my-logo {
@@ -31,7 +31,7 @@
   margin-top: 15px;
   margin-right: 35px;
   width: 16px;
-  background: white
+  background: white;
 }
 
 .burger-menu button {
@@ -103,23 +103,18 @@
   left: 0;
   right: 0;
   top: 700px;
-  
 }
 
 .card {
-  width: 327px;
-  height: 600px;
-  border: 1px solid #DFE1E6;
+  border: 1px solid #dfe1e6;
   padding: 16px;
-
   position: relative;
   width: 327px;
   height: 552px;
-  left: calc(50% - 327px/2);
+  left: calc(50% - 327px / 2);
   top: 114px;
   box-sizing: border-box;
   border-radius: 16px;
-
   display: flex;
   flex-direction: column;
   flex: none;
@@ -143,34 +138,32 @@
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
-  margin: 12px 0px;
-  color: #172B4D;
+  margin: 12px 0;
+  color: #172b4d;
 }
 
 .project-subtitle {
   display: flex;
   align-items: center;
-  
 }
 
 .project-subtitle-left {
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
-  
   color: #344563;
 }
 
 .project-subtitle-right {
   display: flex;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
-  color: #7A869A;
+  color: #7a869a;
 }
 
 .dot {
@@ -181,16 +174,15 @@
   margin-left: 10px;
   margin-right: 10px;
   top: 12px;
-
 }
 
 .project-description {
   position: static;
   width: 295px;
   height: 76px;
-  left: 0px;
+  left: 0;
   top: 80px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -221,7 +213,7 @@
   height: 1263px;
   left: 0;
   top: 3480px;
-  background: #FFFFFF;
+  background: #fff;
   border-top-right-radius: 75px;
 }
 
@@ -229,8 +221,7 @@
   position: absolute;
   left: 24px;
   top: 230px;
-  font-family: 'Poppins',
-  sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: lighter;
   font-size: 16px;
@@ -255,8 +246,7 @@
   position: absolute;
   left: 24px;
   top: 380px;
-  font-family: 'Poppins',
-  sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -302,7 +292,7 @@
 }
 
 .skills-titles {
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -319,18 +309,17 @@
 .languages div {
   width: 303px;
   height: 66.72px;
-  background: #F7F7F9;
+  background: #f7f7f9;
   margin-top: 12px;
   margin-bottom: 12px;
   padding-left: 10px;
 }
 
 .languages p {
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
   margin-left: 15px;
 }
-
