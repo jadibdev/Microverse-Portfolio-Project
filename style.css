@@ -11,6 +11,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background: white;
 }
 
 .my-logo {
@@ -30,12 +31,18 @@
   margin-top: 15px;
   margin-right: 35px;
   width: 16px;
+  background: white;
 }
 
 .burger-menu button {
   cursor: pointer;
-  background-color: #f7f7f9;
+  background-color: white;
   border: none;
+}
+
+#background-design {
+  background: white;
+  border-bottom-left-radius: 75px;
 }
 
 .headline {
@@ -87,4 +94,250 @@
   list-style: none;
   padding-left: 24px;
   margin-top: 0;
+}
+
+.works {
+  display: grid;
+  position: absolute;
+  width: 375px;
+  height: 2788px;
+  left: 0;
+  right: 0;
+  top: 700px;
+}
+
+.card {
+  border: 1px solid #dfe1e6;
+  padding: 16px;
+  position: relative;
+  width: 327px;
+  height: 552px;
+  left: calc(50% - 327px / 2);
+  top: 114px;
+  box-sizing: border-box;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.project-pic {
+  position: static;
+  width: 295px;
+  height: 220px;
+  left: 16px;
+  top: 16px;
+}
+
+.project-title {
+  width: 295px;
+  height: 36px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  margin: 12px 0;
+  color: #172b4d;
+}
+
+.project-subtitle {
+  display: flex;
+  align-items: center;
+}
+
+.project-subtitle-left {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #344563;
+}
+
+.project-subtitle-right {
+  display: flex;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #7a869a;
+}
+
+.dot {
+  align-self: center;
+  position: static;
+  width: 8px;
+  height: 8px;
+  margin-left: 10px;
+  margin-right: 10px;
+  top: 12px;
+}
+
+.project-description {
+  position: static;
+  width: 295px;
+  height: 76px;
+  left: 0;
+  top: 80px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.project-description p {
+  margin-top: 0;
+}
+
+.project-labels {
+  margin-top: 7px;
+  padding-left: 0;
+  margin-bottom: 0;
+  display: flex;
+  list-style-type: none;
+}
+
+.project-labels li {
+  margin-right: 15px;
+}
+
+.see-project-button {
+  width: 124px;
+  height: 48px;
+  padding: 12px;
+  border: 1px solid #6070ff;
+  box-sizing: border-box;
+  border-radius: 8px;
+  margin-top: 15px;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #396df2;
+}
+
+.multi-line {
+  margin-bottom: 45px;
+}
+
+.about {
+  position: absolute;
+  width: 375px;
+  height: 1263px;
+  left: 0;
+  top: 3480px;
+  background: #fff;
+  border-top-right-radius: 75px;
+}
+
+.headline-text-2 {
+  position: absolute;
+  left: 24px;
+  top: 230px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  width: 327px;
+}
+
+.headline-2 {
+  position: absolute;
+  top: 100px;
+  left: 24px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+}
+
+.lets-connect-2 {
+  position: absolute;
+  left: 24px;
+  top: 380px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+}
+
+.social-media-icons-2 {
+  position: absolute;
+  width: 170.17px;
+  height: 20px;
+  top: 450px;
+  left: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  padding-left: 24px;
+  margin-top: 0;
+}
+
+.get-my-resume {
+  position: absolute;
+  top: 490px;
+  left: 24px;
+}
+
+.skills {
+  position: absolute;
+  top: 4050px;
+  left: 24px;
+}
+
+.skills ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.skills div {
+  display: flex;
+  align-items: center;
+}
+
+.skills-titles {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.arrow {
+  position: absolute;
+  left: 275px;
+}
+
+.languages div {
+  width: 303px;
+  height: 66.72px;
+  background: #f7f7f9;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  padding-left: 10px;
+}
+
+.languages p {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  margin-left: 15px;
 }
