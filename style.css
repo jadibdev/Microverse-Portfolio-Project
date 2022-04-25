@@ -198,12 +198,12 @@
   margin-top: 7px;
   padding-left: 0;
   margin-bottom: 0;
-  display: flex;
   list-style-type: none;
 }
 
 .project-labels li {
   margin-right: 15px;
+  float: left
 }
 
 .see-project-button {
