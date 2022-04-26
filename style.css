@@ -5,6 +5,7 @@
   position: relative;
   width: 375px;
   height: 5410px;
+  border: 1px solid blue;
 }
 
 .header {
@@ -103,6 +104,7 @@
   left: 0;
   right: 0;
   top: 700px;
+  border: 1px solid green;
 }
 
 .card {
@@ -232,6 +234,7 @@
   top: 3480px;
   background: #fff;
   border-top-right-radius: 75px;
+  border: 1px solid red;
 }
 
 .headline-text-2 {
@@ -339,4 +342,18 @@
   font-size: 15px;
   line-height: 20px;
   margin-left: 15px;
+}
+
+.footer {
+  position: absolute;
+  left: 0px;
+  top: 4650px;
+  border: 1px solid gray;
+  background-image: url('contact-form-background.png');
+}
+
+footer svg {
+  position: absolute;
+  left: 153px;
+  bottom: 50px;
 }
