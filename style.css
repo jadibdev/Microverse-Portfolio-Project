@@ -4,7 +4,6 @@
   background-color: #f7f7f9;
   position: relative;
   width: 375px;
-  height: 5410px;
 }
 
 .header {
@@ -228,7 +227,7 @@
 .about {
   position: absolute;
   width: 375px;
-  height: 1263px;
+  height: 1100px;
   left: 0;
   top: 3480px;
   background: #fff;
@@ -343,58 +342,45 @@
 }
 
 .footer {
-  position: absolute;
-  left: 0;
-  top: 4650px;
-}
-
-footer svg {
-  position: absolute;
-  left: 153px;
-  bottom: 50px;
-}
-
-.content {
-  position: absolute;
-  width: 265px;
-  height: 709.17px;
-  top: 100px;
-  text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 4000px;
+  margin-bottom: 50px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -700px;
 }
 
 .content h2 {
-  position: relative;
-  left: 54px;
-  margin-top: 0;
+  margin-top: 20px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
   color: #fff;
+  margin-bottom: 0;
 }
 
 .content p {
-  position: absolute;
   width: 327px;
   height: 102px;
-  left: 24px;
-  top: 50px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 28px;
   color: #ebebff;
+  margin-bottom: 60px;
+  text-align: center;
 }
 
 .content form {
-  position: absolute;
-  left: 24px;
-  top: 250px;
+  margin-left: 24px;
 }
 
 .content input {
@@ -413,23 +399,27 @@ footer svg {
 }
 
 #get-in-touch {
-  position: absolute;
-  top: 580px;
-  left: 24px;
   width: 140px;
   height: 48px;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
   padding: 12px 16px;
+  margin-top: 15px;
   font-family: 'Poppins', sans-serif;
   color: #6070ff;
   font-size: 14px;
 }
 
 #home-indicator {
-  position: absolute;
-  top: 668px;
-  left: 120px;
   width: 134px;
   height: 5px;
+  margin-top: 60px;
+}
+
+#contact-form-background {
+  position: absolute;
+  width: 265px;
+  height: 709.17px;
+  left: 110px;
+  top: 4650px;
 }
