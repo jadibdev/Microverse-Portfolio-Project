@@ -11,6 +11,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
+  <!-- container holding entire mobile version-->
   <main class="mobile-main">
     <header class="header">
       <a href="#" class="my-logo">My Logo</a>
@@ -45,7 +46,7 @@
         fill="#6070FF" />
       <rect x="294" y="61.79" width="95.5804" height="22.021" transform="rotate(-30 294 61.79)" fill="#EBEBFF" />
     </svg>
-
+    <!-- headline section -->
     <section>
       <div>
         <h2 class="headline">
@@ -54,18 +55,15 @@
           you!
         </h2>
       </div>
-
       <div>
         <p class="lets-connect">LET'S CONNECT</p>
       </div>
-
       <div>
         <p class="headline-text">
           I’m a software developer! I can help you build a product , feature or website Look through some of my work and
           experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.
         </p>
       </div>
-
       <ul class="social-media-icons">
         <li>
           <a href="#">
@@ -120,7 +118,7 @@
         </li>
       </ul>
     </section>
-
+    <!-- projects section-->
     <section class="works">
       <div class="card">
         <img class="project-pic" alt="tonic pic" src="Snapshoot-Portfolio.png"/>
@@ -255,7 +253,7 @@
         </button>
       </div>
     </section>
-
+    <!-- about section -->
     <section class="about">
       <h2 class="headline-2">About<br />Myself</h2>
       <div>
@@ -324,12 +322,11 @@
           </a>
         </li>
       </ul>
-
       <div class="get-my-resume">
         <img alt="get my resume pic" src="get-my-resume.png"/>
       </div>
     </section>
-
+    <!-- skills section -->
     <section class="skills">
         <ul>
           <li>
@@ -374,6 +371,29 @@
           </li>
         </ul>
       </section>
+      <!-- footer -->
+      <footer class="footer">
+        <img alt="blue background" src="Contact-me.png" />
+        
+        <!-- contact form section-->
+        <section class="content">
+          <h2>Contact me</h2>
+          <p>
+            If you have an application you are interested in developing, a feature that you need built or a project that needs
+            coding. I’d love to help with it
+          </p>
+          <form action="https://formspree.io/f/moqrpdyp" method="POST">
+            <input class="inputs" type="text" name="name" id="name" placeholder="Yeremias" required maxlength="30">
+            <input type="email" name="email-address" placeholder="natajayanj14@gmail.com" required>
+            <textarea id="txtid" name="txtname" placeholder="Write your message here" rows="4" cols="50" maxlength="500" required></textarea>
+            <button class="button" type="submit" id="get-in-touch">
+              Get In Touch
+            </button>
+          </form>
+          <img alt="home indicator" id="home-indicator" src="home-indicator.png" />
+          <img alt="design background" id="contact-form-background" src="contact-form-background.png"/>
+        </section>
+      </footer>
   </main>
 </body>
 </html>
