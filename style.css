@@ -5,7 +5,6 @@
   position: relative;
   width: 375px;
   height: 5410px;
-  border: 1px solid blue;
 }
 
 .header {
@@ -104,7 +103,6 @@
   left: 0;
   right: 0;
   top: 700px;
-  border: 1px solid green;
 }
 
 .card {
@@ -122,6 +120,7 @@
   flex: none;
   order: 0;
   flex-grow: 0;
+  background: white;
 }
 
 .project-pic {
@@ -234,7 +233,6 @@
   top: 3480px;
   background: #fff;
   border-top-right-radius: 75px;
-  border: 1px solid red;
 }
 
 .headline-text-2 {
@@ -348,8 +346,6 @@
   position: absolute;
   left: 0px;
   top: 4650px;
-  border: 1px solid gray;
-  background-image: url('contact-form-background.png');
 }
 
 footer svg {
@@ -358,4 +354,83 @@ footer svg {
   bottom: 50px;
 }
 
+.content {
+  position: absolute;
+  width: 265px;
+  height: 709.17px;
+  top: 100px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
+.content h2 {
+  position: relative;
+  left: 54px;
+  margin-top: 0;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #FFFFFF;
+}
+
+.content p {
+  position: absolute;
+  width: 327px;
+  height: 102px;
+  left: 24px;
+  top: 50px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #EBEBFF;
+}
+
+.content form {
+  position: absolute;
+  left: 24px;
+  top: 250px;
+}
+
+.content input {
+  width: 327px;
+  height: 48px;
+  border: 1px solid #CFD8DC;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.content textarea {
+  width: 327px;
+  height: 170px;
+  border: 1px solid #CFD8DC;
+  border-radius: 8px;
+}
+
+#get-in-touch {
+  position: absolute;
+  top: 580px;
+  left: 24px;
+  width: 140px;
+  height: 48px;
+  border: 1px solid #CFD8DC;
+  border-radius: 8px;
+  padding: 12px 16px;
+  font-family: 'Poppins', sans-serif;
+  color: #6070ff;
+  font-size: 14px;
+}
+
+#home-indicator {
+  position: absolute;
+  top: 668px;
+  left: 120px;
+  width: 134px;
+  height: 5px;
+  
+}
