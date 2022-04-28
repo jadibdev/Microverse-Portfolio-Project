@@ -14,6 +14,7 @@
 }
 
 .my-logo {
+  transform: rotate(360deg);
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
