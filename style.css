@@ -14,7 +14,8 @@
 }
 
 .my-logo {
-  transform: rotate(360deg);
+  animation-name: rotate-logo;
+  animation-duration: 2s;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -25,6 +26,11 @@
   margin-left: 18px;
   cursor: pointer;
   text-decoration: none;
+}
+
+@keyframes rotate-logo {
+  from {transform: rotate(0deg);}
+  to {transform: rotate(360deg);}
 }
 
 .burger-menu {
