@@ -466,7 +466,16 @@
     display: none;
   }
 
+  .desktop-headline-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -500px; 
+  }
 
+  .headline-section {
+    display: none;
+  }
 }
 
 /* Mobile */
@@ -476,6 +485,10 @@
   }
 
   .headline-bg-desktop {
+    display: none;
+  }
+
+  .desktop-headline-section {
     display: none;
   }
 }
