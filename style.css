@@ -29,8 +29,8 @@
 }
 
 @keyframes rotate-logo {
-  from {transform: rotate(0deg);}
-  to {transform: rotate(360deg);}
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
 }
 
 .burger-menu {
@@ -233,10 +233,10 @@
   animation-duration: 2s;
 }
 
-@keyframes change-color{
-  from {background-color: #396df2;}
-    to {background-color: gray;}
-  }
+@keyframes change-color {
+  from { background-color: #396df2; }
+  to { background-color: gray; }
+}
 
 .multi-line {
   margin-bottom: 45px;
