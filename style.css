@@ -436,3 +436,46 @@
   left: 110px;
   top: 4650px;
 }
+
+/* Desktop */
+@media only screen and (min-width: 768px) {
+  .header {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  .mobile-main {
+    width: 100%;
+  }
+
+  .burger-menu {
+    display: none;
+  }
+
+  .nav-items {
+    display: flex;
+    list-style-type:none;
+  }
+
+  .nav-items li {
+    margin-left: 32px;
+  }
+
+  #background-design {
+    display: none;
+  }
+
+
+}
+
+/* Mobile */
+@media only screen and (max-width: 768px) {
+  .mobile-nav {
+    display: none;
+  }
+
+  .headline-bg-desktop {
+    display: none;
+  }
+}
