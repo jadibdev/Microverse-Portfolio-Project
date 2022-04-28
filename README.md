@@ -2,7 +2,7 @@
 
 # Portfolio_Site
 
-> This is a portfolio site that will showcase many of the projects I will be working on during the Microverse program.
+> This is a portfolio site that will showcase the projects I will be working on during the Microverse program.
 
 ## Built With
 
