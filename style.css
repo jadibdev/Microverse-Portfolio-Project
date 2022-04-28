@@ -228,6 +228,16 @@
   color: #396df2;
 }
 
+.see-project-button:hover {
+  animation-name: change-color;
+  animation-duration: 2s;
+}
+
+@keyframes change-color{
+  from {background-color: #396df2;}
+    to {background-color: gray;}
+  }
+
 .multi-line {
   margin-bottom: 45px;
 }
