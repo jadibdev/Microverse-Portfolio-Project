@@ -221,6 +221,15 @@
   color: #396df2;
 }
 
+.see-project-button:hover {
+  transform: scale(1.03);
+}
+
+.see-project-button a {
+  color: #396df2;
+  text-decoration: none;
+}
+
 .multi-line {
   margin-bottom: 45px;
 }
