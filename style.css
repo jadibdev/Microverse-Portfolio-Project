@@ -14,6 +14,8 @@
 }
 
 .my-logo {
+  animation-name: rotate-logo;
+  animation-duration: 2s;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -24,6 +26,11 @@
   margin-left: 18px;
   cursor: pointer;
   text-decoration: none;
+}
+
+@keyframes rotate-logo {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
 }
 
 .burger-menu {
@@ -228,6 +235,13 @@
 .see-project-button a {
   color: #396df2;
   text-decoration: none;
+  animation-name: change-color;
+  animation-duration: 2s;
+}
+
+@keyframes change-color {
+  from { background-color: #396df2; }
+  to { background-color: gray; }
 }
 
 .multi-line {
