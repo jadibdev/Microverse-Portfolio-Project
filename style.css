@@ -229,6 +229,12 @@
 }
 
 .see-project-button:hover {
+  transform: scale(1.03);
+}
+
+.see-project-button a {
+  color: #396df2;
+  text-decoration: none;
   animation-name: change-color;
   animation-duration: 2s;
 }
@@ -243,9 +249,10 @@
 }
 
 .about {
+  display: flex;
   position: absolute;
   width: 375px;
-  height: 1100px;
+  height: 550px;
   left: 0;
   top: 3480px;
   background: #fff;
@@ -313,6 +320,7 @@
   position: absolute;
   top: 4050px;
   left: 24px;
+  margin-top: 30px;
 }
 
 .skills ul {
@@ -452,4 +460,279 @@
   height: 709.17px;
   left: 110px;
   top: 4650px;
+}
+
+/* Desktop */
+@media only screen and (min-width: 768px) {
+  .header {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  .mobile-main {
+    width: 100%;
+  }
+
+  .burger-menu {
+    display: none;
+  }
+
+  .nav-items {
+    display: flex;
+    list-style-type: none;
+  }
+
+  .nav-items li {
+    margin-left: 32px;
+  }
+
+  #background-design {
+    display: none;
+  }
+
+  .headline-bg-desktop {
+    background-color: white;
+  }
+
+  .desktop-headline-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -500px;
+    background-color: white;
+  }
+
+  .headline-section {
+    display: none;
+  }
+
+  .desktop-headline-section h2 {
+    width: 920px;
+    height: 122px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: 0.37px;
+    color: #091e42;
+    margin-left: 200px;
+  }
+
+  .desktop-headline-section p {
+    width: 850px;
+    height: 98px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #344563;
+    margin-left: 140px;
+  }
+
+  #lets-connect-3 {
+    margin-top: -10px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #7f8cff;
+  }
+
+  .desktop-headline-section ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-between;
+    padding-left: 0;
+    margin-left: -570px;
+    margin-top: -80px;
+  }
+
+  .desktop-headline-section li {
+    margin-left: 15px;
+  }
+
+  .card {
+    width: 1156px;
+    height: 496px;
+    flex-direction: column;
+    left: 25px;
+    right: 0;
+  }
+
+  .project-pic {
+    width: 544px;
+    height: 448px;
+  }
+
+  .project-title {
+    margin-top: -400px;
+    margin-left: 575px;
+  }
+
+  .project-subtitle {
+    margin-left: 575px;
+  }
+
+  .project-description {
+    margin-left: 575px;
+    width: 496px;
+  }
+
+  .project-labels {
+    margin-left: 575px;
+  }
+
+  .see-project-button {
+    margin-left: 575px;
+  }
+
+  .second-card {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .multi-div {
+    margin-top: 430px;
+    margin-right: 50px;
+  }
+
+  .skills_about {
+    display: flex;
+  }
+
+  .about {
+    position: relative;
+    top: 2780px;
+    left: 100px;
+    width: 1440px;
+  }
+
+  .skills {
+    top: 3560px;
+    left: 630px;
+  }
+
+  .works {
+    margin-left: 100px;
+    width: 100%;
+  }
+
+  .languages {
+    display: flex;
+  }
+
+  .languages div {
+    flex-direction: column;
+    margin-left: 15px;
+    width: 125px;
+    height: 122px;
+    margin-bottom: 30px;
+    padding-top: 25px;
+  }
+
+  .headline-text-2 {
+    width: 447px;
+    height: 102px;
+    margin-bottom: 0;
+  }
+
+  .lets-connect-2 {
+    margin-top: -15px;
+    margin-bottom: 0;
+  }
+
+  .social-media-icons-2 {
+    top: 400px;
+    padding-left: 10px;
+  }
+
+  .arrow {
+    left: 560px;
+  }
+
+  .separator {
+    width: 600px;
+  }
+
+  .mobile-background {
+    display: none;
+  }
+
+  #contact-form-background {
+    display: none;
+  }
+
+  .content {
+    width: 100%;
+  }
+
+  .content form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer {
+    width: 100%;
+    margin-top: 2900px;
+    height: 750px;
+  }
+
+  #desktop-background {
+    width: 100%;
+  }
+
+  #contact-form-shapes-background {
+    position: relative;
+    top: -750px;
+    right: 60px;
+  }
+
+  .content p {
+    width: 569px;
+    font-size: 20px;
+  }
+
+  #get-in-touch {
+    margin: 0 auto;
+  }
+
+  #home-indicator {
+    display: none;
+  }
+
+  form textarea {
+    margin-bottom: 15px;
+  }
+
+  body {
+    background-color: #f7f7f9;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+/* Mobile */
+@media only screen and (max-width: 768px) {
+  .mobile-nav {
+    display: none;
+  }
+
+  .headline-bg-desktop {
+    display: none;
+  }
+
+  .desktop-headline-section {
+    display: none;
+  }
+
+  #desktop-background {
+    display: none;
+  }
 }
