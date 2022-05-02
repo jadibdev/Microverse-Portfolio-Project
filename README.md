@@ -25,7 +25,7 @@ Run the index.html file in your favorite browser
 
 👤 **Mohamed Jadib**
 
-- Live Portfolio: [@MJ](https://jadibdev.github.io/)
+- Portfolio: [@MJ](https://jadibdev.github.io/)
 - GitHub: [@jadibdev](https://github.com/jadibdev)
 - Twitter: [@MohamedJadib](https://twitter.com/MohamedJadib)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/mohamed-jadib-942a5041/)
