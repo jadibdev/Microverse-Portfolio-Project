@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+.display-none {
+  display: none;
+}
+
 .mobile-main {
   background-color: #f7f7f9;
   position: relative;
@@ -738,8 +742,7 @@
 }
 
 .mobile-menu-background {
-  background: #6070FF;
-  ;
+  background: #6070ff;
   height: 100vh;
   z-index: 1;
   position: fixed;
@@ -747,7 +750,7 @@
   left: 0;
   width: 100%;
   opacity: 0.9;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
@@ -763,7 +766,6 @@
 
 .menu-mobile-div {
   position: relative;
-
 }
 
 .close-menu {
