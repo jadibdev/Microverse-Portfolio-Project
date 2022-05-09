@@ -30,6 +30,13 @@ Run the index.html file in your favorite browser
 - Twitter: [@MohamedJadib](https://twitter.com/MohamedJadib)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/mohamed-jadib-942a5041/)
 
+👤 **Ritobroto Mukherjee**
+
+- Portfolio: [@Rito](https://ritobrotomukherjee.github.io/Work-Portfolio/)
+- GitHub: [@RitobrotoMukherjee](https://github.com/RitobrotoMukherjee)
+- Twitter: [@RitobrotoM3](https://twitter.com/RitobrotoM3)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/ritobroto-mukherjee-519148ba/)
+
 ## Show your support
 
 Give a ⭐️ if you like this project!

@@ -16,7 +16,7 @@
     <header class="header">
       <a href="#" class="my-logo">My Logo</a>
       <nav class="burger-menu">
-        <button type="button">
+        <button type="button" class="toggle-mobile-menu">
           <img alt="burger menu" src="menu-bar.png" />
         </button>
       </nav>
@@ -199,7 +199,7 @@
     <!-- end of mobile headline section -->
 
     <!-- projects section-->
-    <section class="works">
+    <section id="portfolio" class="works">
       <div class="card">
         <img class="project-pic" alt="tonic pic" src="nature-35.png"/>
         <h2 class="project-title">Tonic</h2>
@@ -218,6 +218,7 @@
             of privately personalized reads; no accounts or sign-ups required.
           </p>
         </div>
+        
         <ul class="project-labels">
           <li>
             <img alt="html label" src="html-label.png" />
@@ -345,7 +346,7 @@
       </div>
     </section>
     <!-- about section -->
-    <div class="skills_about">
+    <section id="about-us" class="skills_about">
       <div class="about">
         <h2 class="headline-2">About<br />Myself</h2>
         <div>
@@ -463,12 +464,32 @@
           </li>
         </ul>
       </div>
-    </div>
+    </section>
     <!-- end of about-skills section-->
+
+      <section id="mobile-menu" class="mobile-menu-background display-none">
+        <div class="menu-mobile-div">
+          <h6 class="close-menu toggle-mobile-menu">X</h6>
+          <ul class="mobile-menu">
+            <li class="mobile-menu-items">
+              <a class="toggle-mobile-menu" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="mobile-menu-items">
+              <a class="toggle-mobile-menu" href="#about-us">About</a>
+            </li>
+            <li class="mobile-menu-items">
+              <a class="toggle-mobile-menu" href="#contact-us">Contact</a>
+            </li>
+          </ul>
+          <div class="home-indicator">
+            <img alt="home indicator image" src="home-indicator.png">
+          </div>
+        </div>
+      </section>
 
 
       <!-- footer -->
-      <footer class="footer">
+      <footer id="contact-us" class="footer">
         <img class="mobile-background" alt="blue background" src="Contact-me.png" />
         <img id="desktop-background" alt="desktop background" src="contactform-background-desktop.png" />
         <!-- contact form section-->
@@ -494,5 +515,6 @@
           src="contact-form-background-shapes-desktop.png" />
       </footer>
   </main>
+  <script src="./javascript/script.js"></script>
 </body>
 </html>

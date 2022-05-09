@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+.display-none {
+  display: none;
+}
+
 .mobile-main {
   background-color: #f7f7f9;
   position: relative;
@@ -735,4 +739,60 @@
   #desktop-background {
     display: none;
   }
+}
+
+.mobile-menu-background {
+  background: #6070ff;
+  height: 100vh;
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  opacity: 0.9;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+.home-indicator {
+  margin: 0 auto;
+  position: absolute;
+  left: 40%;
+  bottom: -240px;
+}
+
+.menu-mobile-div {
+  position: relative;
+}
+
+.close-menu {
+  position: absolute;
+  left: 340px;
+  top: -20px;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.mobile-menu {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  padding: 76px 28px;
+  list-style: none;
+}
+
+.mobile-menu-items {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  margin-top: 10px;
+}
+
+.mobile-menu-items a {
+  text-decoration: none;
+  color: white;
 }
