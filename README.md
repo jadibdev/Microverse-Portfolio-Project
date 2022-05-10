@@ -35,7 +35,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
+- Hat tip to anyone whose code was used in this project
 - Inspiration
 - etc
 
