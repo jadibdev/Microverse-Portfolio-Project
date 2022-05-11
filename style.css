@@ -4,6 +4,10 @@
   display: none;
 }
 
+ul {
+  list-style-type: none;
+}
+
 .mobile-main {
   background-color: #f7f7f9;
   position: relative;
@@ -209,6 +213,11 @@
 
 .project-description p {
   margin-top: 0;
+}
+
+.modal-project-description {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
 }
 
 .project-labels {
@@ -885,4 +894,79 @@
 .mobile-menu-items a {
   text-decoration: none;
   color: white;
+}
+
+.modal-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 36px;
+  font-family: 'Poppins',
+  sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  margin: 12px 0;
+  color: #172b4d;
+}
+
+.desktop-popup-background {
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow-y: auto;
+  padding: 30px 50px;
+  background: #C1C7D0;
+}
+
+.desktop-popup-body {
+  background: white;
+  position: relative;
+  width: auto;
+  margin: 10px auto;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 8px;
+}
+
+/* desktop pop up */
+
+.modal-subtitle {
+  display: flex;
+  align-items: center;
+}
+
+.modal-skills {
+  padding: 0px 20px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.modal-project-labels {
+  display: flex;
+  margin-bottom: 20px;
+  gap: 5%;
+  justify-content: start;
+  padding-left: 0;
+  flex-wrap: wrap;
+}
+
+.buttons-desktop-popup {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 142px;
+  padding: 10px;
+  border: 1px solid #6070ff;
+  box-sizing: border-box;
+  border-radius: 8px;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #396df2;
 }
