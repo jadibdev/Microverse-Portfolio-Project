@@ -17,9 +17,9 @@ const projectList = [
     source: '#',
   },
   {
-    name: 'Tonic',
+    name: 'Multi-Post Stories',
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    featured_image: 'nature-35.png',
+    featured_image: 'multi-post-stories2.png',
     technologies: ['HTML', 'CSS', 'JavaScript'],
     live: '#',
     source: '#',
@@ -74,14 +74,13 @@ const createMainElements = (elem, classes) => {
 for (let index = 0; index < projectList.length; index += 1) {
   const mainDiv = createMainElements('div', 'card');
 
-  const imageContainer = createMainElements('div', 'image-container');
-
-  const image = createMainElements('img', '');
+  const image = createMainElements('img', 'project-pic');
   image.src = projectList[index].featured_image;
   image.alt = `Project ${index + 1} image`;
-  imageContainer.appendChild(image);
 
-  const projectDesc = createMainElements('div', 'project-description text-center');
+  const h2 = createMainElements('h2', 'project-title');
+
+  const div = 
 
   const title = createMainElements('h3', 'title-header');
   title.textContent = projectList[index].name;
@@ -103,8 +102,7 @@ for (let index = 0; index < projectList.length; index += 1) {
   projectDesc.appendChild(technologies);
   projectDesc.appendChild(button);
 
-  mainDiv.appendChild(imageContainer);
-  mainDiv.appendChild(projectDesc);
+  mainDiv.appendChild(image);
 
   getProjectListParentDiv.append(mainDiv);
 }
