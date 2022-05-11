@@ -1,10 +1,10 @@
-const getProjectListParentDiv = document.getElementById('project-lists');
+const getProjectListParentDiv = document.getElementById('portfolio');
 const projectList = [
   {
     name: 'Tonic',
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     featured_image: 'nature-35.png',
-    technologies: ['HTML', 'CSS', 'JavaScript'],
+    technologies: ['html-label.png', 'css-label.png', 'javascript-label.png'],
     live: '#',
     source: '#',
   },
@@ -35,42 +35,6 @@ const createMainElements = (elem, classes) => {
   return mainElem;
 };
 
-/* <div class="card">
-        <img class="project-pic" alt="tonic pic" src="nature-35.png" />
-        <h2 class="project-title">Tonic</h2>
-        <div class="project-subtitle">
-          <div class="project-subtitle-left">CANOPY</div>
-          <div class="project-subtitle-right">
-            <img alt="dot image" class="dot" src="Counter.png" />
-            <p>Back End Dev</p>
-            <img alt="dot image" class="dot" src="Counter.png" />
-            <p>2015</p>
-          </div>
-        </div>
-        <div class="project-description">
-          <p>
-            A daily selection
-            of privately personalized reads; no accounts or sign-ups required.
-          </p>
-        </div>
-
-        <ul class="project-labels">
-          <li>
-            <img alt="html label" src="html-label.png" />
-          </li>
-          <li>
-            <img alt="css label" src="css-label.png" />
-          </li>
-          <li>
-            <img alt="javascript label" src="javascript-label.png" />
-          </li>
-        </ul>
-        <button onclick="window.location.href = 'https://github.com/jadibdev/Portfolio_Site'" type="button"
-          class="see-project-button">
-          See Project
-        </button>
-      </div> */
-
 for (let index = 0; index < projectList.length; index += 1) {
   const mainDiv = createMainElements('div', 'card');
 
@@ -79,30 +43,58 @@ for (let index = 0; index < projectList.length; index += 1) {
   image.alt = `Project ${index + 1} image`;
 
   const h2 = createMainElements('h2', 'project-title');
+  h2.textContent = projectList[index].name;
 
-  const div = 
+  const subtitleMain = createMainElements('div', 'project-subtitle');
 
-  const title = createMainElements('h3', 'title-header');
-  title.textContent = projectList[index].name;
+  const subtitleChildleft = createMainElements('div', 'project-subtitle-left');
+  subtitleChildleft.textContent = "CANOPY";
 
-  const technologies = createMainElements('ul', 'category-list');
+  const subtitleChildright = createMainElements('div', 'project-subtitle-right');
+
+  const subtitleChildrightImage = createMainElements('img', 'dot');
+  subtitleChildrightImage.src = 'Counter.png';
+  subtitleChildrightImage.alt = 'dot image';
+
+  const subtitleChildrightPOne = createMainElements('p', '');
+  subtitleChildrightPOne.textContent = 'Back End Dev';
+  const subtitleChildrightPTwo = createMainElements('p', '');
+  subtitleChildrightPTwo.textContent = '2015';
+  subtitleChildright.appendChild(subtitleChildrightImage);
+  subtitleChildright.appendChild(subtitleChildrightPOne);
+  subtitleChildright.appendChild(subtitleChildrightImage);
+  subtitleChildright.appendChild(subtitleChildrightPTwo);
+
+  subtitleMain.appendChild(subtitleChildleft);
+  subtitleMain.appendChild(subtitleChildright);
+
+  const projectDescDiv = createMainElements('div', 'project-description');
+  const projectDesc = createMainElements('p', '');
+  projectDesc.textContent = projectList[index].description;
+  projectDescDiv.appendChild(projectDesc);
+
+
+  const technologies = createMainElements('ul', 'project-labels');
   for (let i = 0; i < projectList[index].technologies.length; i += 1) {
-    const li = createMainElements('ul', 'category-items');
-    li.textContent = projectList[index].technologies[i];
+    const li = createMainElements('li', '');
+    const skillimg = createMainElements('img', '');
+    skillimg.src = projectList[index].technologies[i];
+    li.appendChild(skillimg);
     technologies.appendChild(li);
   }
 
-  const button = createMainElements('button', 'button text-center see-close-project');
+  const button = createMainElements('button', 'see-project-button');
   button.type = 'button';
   button.id = `project-${index + 1}`;
   button.dataProjectIndex = index;
   button.textContent = 'See Project';
 
-  projectDesc.appendChild(title);
-  projectDesc.appendChild(technologies);
-  projectDesc.appendChild(button);
-
   mainDiv.appendChild(image);
+  mainDiv.appendChild(h2);
+  mainDiv.appendChild(subtitleMain);
+  mainDiv.appendChild(projectDescDiv);
+  mainDiv.appendChild(technologies);
+  mainDiv.appendChild(button);
 
   getProjectListParentDiv.append(mainDiv);
 }
