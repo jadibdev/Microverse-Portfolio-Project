@@ -94,7 +94,7 @@ for (let index = 0; index < projectList.length; index += 1) {
   const button = createMainElements('button', 'see-project-button see-close-project');
   button.type = 'button';
   button.id = `project-${index + 1}`;
-  button.dataProjectIndex = index;
+  button.setAttribute('data-project-index', index);
   button.textContent = 'See Project';
 
   mainDiv.appendChild(image);
@@ -106,3 +106,5 @@ for (let index = 0; index < projectList.length; index += 1) {
 
   getProjectListParentDiv.append(mainDiv);
 }
+
+export {projectList};

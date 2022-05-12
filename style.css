@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+  font-family: 'Poppins', sans-serif;
+}
 
+a {
+  text-decoration: none;
+}
 .display-none {
   display: none;
 }

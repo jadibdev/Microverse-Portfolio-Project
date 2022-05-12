@@ -388,7 +388,7 @@
   <div id="mobile-popup" class="mobile-pop-up-background display-none">
     <div class="modal-body-mobile">
       <div class="modal-items project-title">
-        <h2 class="project-title">Tonic</h2>
+        <h2 id="mobile-popup-title" class="project-title"></h2>
         <img class="see-close-project" src="./images/mobile-close.png" alt="close button">
       </div>
 
@@ -405,45 +405,32 @@
 
       </div>
       <div class="modal-items image-container-mobile">
-        <img class="mobile-popup-img" alt="tonic pic" src="nature-35.png" />
+        <img id="mobile-popup-image" class="mobile-popup-img" alt="tonic pic" src="" />
       </div>
       <div class="modal-items">
         <div class="project-description-mobile">
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-            scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
-            electronic typesetting, remaining essent
+          <p id="mobile-popup-project-descritption">
+            
           </p>
         </div>
 
       </div>
       <div class="modal-items mobile-popup-skills">
-        <ul class="project-labels">
-          <li>
-            <img alt="html label" src="html-label.png" />
-          </li>
-          <li>
-            <img alt="css label" src="css-label.png" />
-          </li>
-          <li>
-            <img alt="javascript label" src="javascript-label.png" />
-          </li>
+        <ul id="mobile-popup-skill-list" class="project-labels">
+          
         </ul>
 
       </div>
       <div class="modal-items mobile-popup-buttons">
-          <button onclick="window.location.href = 'https://github.com/jadibdev/Portfolio_Site'" type="button"
-            class="buttons-mobile-popup">
+          <a  id="mobile-popup-view-live" href="" class="buttons-mobile-popup">
            <span class="botton-mobile-elements">See Live</span>
            <span class="botton-mobile-elements"><img src="./images/view-source-icon.png" alt="portfolio live"></span>
-          </button>
+          </a>
 
-        <button onclick="window.location.href = 'https://github.com/jadibdev/Portfolio_Site'" type="button"
-          class="buttons-mobile-popup">
+        <a id="mobile-popup-view-src" class="buttons-mobile-popup" href="">
           <span class="botton-mobile-elements">See source</span>
            <span class="botton-mobile-elements"><img src="./images/github-icon.png" alt="Github icon"></span>
-        </button>
+        </a>
       </div>
     </div>
   </div>
@@ -452,7 +439,7 @@
   <div id="desktop-pop-up" class="desktop-popup-background display-none">
     <div class="desktop-popup-body">
       <div class="modal-items modal-title">
-        <h2>Tonic</h2>
+        <h2 id="dektop-modal-title-text"></h2>
         <img class="see-close-project" src="./images/mobile-close.png" alt="close button">
       </div>
   
@@ -469,55 +456,28 @@
       </div>
       
       <div class="image-container">
-        <img alt="modal image" id="modal-image" src="nature-35.png"/>
+        <img alt="modal image" id="modal-image-desktop" src=""/>
       </div>
       <div class="modal-project-description">
         <div class="description-text">
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
-            dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the
-            releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-            standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the
-            releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of
-            type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem
-            Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
-            text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea
+          <p id="desktop-modal-project-desc">
+            
           </p>
         </div>
         <div class="modal-skills">
-            <ul class="modal-project-labels">
-              <li>
-                <img alt="html label" src="html-label.png" />
-              </li>
-              <li>
-                <img alt="css label" src="css-label.png" />
-              </li>
-              <li>
-                <img alt="javascript label" src="javascript-label.png" />
-              </li>
-              <li>
-                <img alt="html label" src="html-label.png" />
-              </li>
-              <li>
-                <img alt="css label" src="css-label.png" />
-              </li>
-              <li>
-                <img alt="javascript label" src="javascript-label.png" />
-              </li>
+            <ul id="dekstop-modal-skills-list" class="modal-project-labels">
             </ul>
 
             <div class="modal-items mobile-popup-buttons">
-              <button onclick="window.location.href = 'https://github.com/jadibdev/Portfolio_Site'" type="button"
-                class="buttons-desktop-popup">
+              <a id="desktop-modal-view-live" href="#" class="buttons-desktop-popup">
                 <span class="botton-mobile-elements">See Live</span>
                 <span class="botton-mobile-elements"><img src="./images/view-source-icon.png" alt="portfolio live"></span>
-              </button>
+              </a>
             
-              <button onclick="window.location.href = 'https://github.com/jadibdev/Portfolio_Site'" type="button"
-                class="buttons-desktop-popup">
+              <a id="desktop-modal-view-source" class="buttons-desktop-popup" href=""> 
                 <span class="botton-mobile-elements">See source</span>
                 <span class="botton-mobile-elements"><img src="./images/github-icon.png" alt="Github icon"></span>
-              </button>
+              </a>
             </div>
         </div>
 
@@ -525,9 +485,7 @@
     </div>
   </div>
 
-  
-  <script src="./javascript/objectData.js"></script>
-  <script src="./javascript/script.js"></script>
+  <script type="module" src="./javascript/script.js"></script>
 </body>
 
 </html>
