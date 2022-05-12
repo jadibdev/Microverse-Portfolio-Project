@@ -208,151 +208,7 @@
 
     <!-- projects section-->
     <section id="portfolio" class="works">
-      <div class="card">
-        <img class="project-pic" alt="tonic pic" src="nature-35.png" />
-        <h2 class="project-title">Tonic</h2>
-        <div class="project-subtitle">
-          <div class="project-subtitle-left">CANOPY</div>
-          <div class="project-subtitle-right">
-            <img alt="dot image" class="dot" src="Counter.png" />
-            <p>Back End Dev</p>
-            <img alt="dot image" class="dot" src="Counter.png" />
-            <p>2015</p>
-          </div>
-        </div>
-        <div class="project-description">
-          <p>
-            A daily selection
-            of privately personalized reads; no accounts or sign-ups required.
-          </p>
-        </div>
-
-        <ul class="project-labels">
-          <li>
-            <img alt="html label" src="html-label.png" />
-          </li>
-          <li>
-            <img alt="css label" src="css-label.png" />
-          </li>
-          <li>
-            <img alt="javascript label" src="javascript-label.png" />
-          </li>
-        </ul>
-        <button onclick="window.location.href = 'https://github.com/jadibdev/Portfolio_Site'" type="button"
-          class="see-project-button">
-          See Project
-        </button>
-      </div>
-      <div class="card second-card">
-        <div>
-          <img class="project-pic" alt="tonic pic" src="multi-post-stories2.png" />
-        </div>
-        <div class="multi-div">
-          <h2 class="project-title multi-line">Multi-Post <br /> Stories</h2>
-          <div class="project-subtitle">
-            <div class="project-subtitle-left">CANOPY</div>
-            <div class="project-subtitle-right">
-              <img alt="dot image" class="dot" src="Counter.png" />
-              <p>Back End Dev</p>
-              <img alt="dot image" class="dot" src="Counter.png" />
-              <p>2015</p>
-            </div>
-          </div>
-          <div class="project-description">
-            <p>
-              A daily selection
-              of privately personalized reads; no accounts or sign-ups required.
-            </p>
-          </div>
-          <ul class="project-labels">
-            <li>
-              <img alt="html label" src="html-label.png" />
-            </li>
-            <li>
-              <img alt="css label" src="css-label.png" />
-            </li>
-            <li>
-              <img alt="javascript label" src="javascript-label.png" />
-            </li>
-          </ul>
-          <button onclick="window.location.href = 'https://github.com/jadibdev/Portfolio_Site'" type="button"
-            class="see-project-button">
-            See Project
-          </button>
-        </div>
-      </div>
-      <div class="card">
-        <img class="project-pic" alt="tonic pic" src="Snapshoot-Portfolio.png" />
-        <p class="project-title">Facebook 360</p>
-        <div class="project-subtitle">
-          <div class="project-subtitle-left">CANOPY</div>
-          <div class="project-subtitle-right">
-            <img alt="dot image" class="dot" src="Counter.png" />
-            <p>Back End Dev</p>
-            <img alt="dot image" class="dot" src="Counter.png" />
-            <p>2015</p>
-          </div>
-        </div>
-        <div class="project-description">
-          <p>
-            A daily selection
-            of privately personalized reads; no accounts or sign-ups required.
-          </p>
-        </div>
-        <ul class="project-labels">
-          <li>
-            <img alt="html label" src="html-label.png" />
-          </li>
-          <li>
-            <img alt="css label" src="css-label.png" />
-          </li>
-          <li>
-            <img alt="javascript label" src="javascript-label.png" />
-          </li>
-        </ul>
-        <button onclick="window.location.href = 'https://github.com/jadibdev/Portfolio_Site'" type="button"
-          class="see-project-button">
-          See Project
-        </button>
-      </div>
-      <div class="card second-card">
-        <div>
-          <img class="project-pic" alt="tonic pic" src="multi-post-stories.png" />
-        </div>
-        <div class="multi-div">
-          <h2 class="project-title multi-line">Uber Navigation</h2>
-          <div class="project-subtitle">
-            <div class="project-subtitle-left">CANOPY</div>
-            <div class="project-subtitle-right">
-              <img alt="dot image" class="dot" src="Counter.png" />
-              <p>Back End Dev</p>
-              <img alt="dot image" class="dot" src="Counter.png" />
-              <p>2015</p>
-            </div>
-          </div>
-          <div class="project-description">
-            <p>
-              A daily selection
-              of privately personalized reads; no accounts or sign-ups required.
-            </p>
-          </div>
-          <ul class="project-labels">
-            <li>
-              <img alt="html label" src="html-label.png" />
-            </li>
-            <li>
-              <img alt="css label" src="css-label.png" />
-            </li>
-            <li>
-              <img alt="javascript label" src="javascript-label.png" />
-            </li>
-          </ul>
-          <button onclick="window.location.href = 'https://github.com/jadibdev/Portfolio_Site'" type="button"
-            class="see-project-button">
-            See Project
-          </button>
-        </div>
-      </div>
+      
     </section>
     <!-- about section -->
     <section id="about-us" class="skills_about">
@@ -529,11 +385,11 @@
   </main>
 
   <!-- mobile pop up design-->
-  <div class="mobile-pop-up-background display-none">
+  <div id="mobile-popup" class="mobile-pop-up-background display-none">
     <div class="modal-body-mobile">
       <div class="modal-items project-title">
         <h2 class="project-title">Tonic</h2>
-        <img src="./images/mobile-close.png" alt="close button">
+        <img class="see-close-project" src="./images/mobile-close.png" alt="close button">
       </div>
 
       <div class="modal-items">
@@ -593,11 +449,11 @@
   </div>
 
   <!-- desktop popup design -->
-  <div class="desktop-popup-background display-none">
+  <div id="desktop-pop-up" class="desktop-popup-background display-none">
     <div class="desktop-popup-body">
       <div class="modal-items modal-title">
         <h2>Tonic</h2>
-        <img src="./images/mobile-close.png" alt="close button">
+        <img class="see-close-project" src="./images/mobile-close.png" alt="close button">
       </div>
   
       <div class="modal-items">
@@ -613,7 +469,7 @@
       </div>
       
       <div class="image-container">
-        <img src="nature-35.png"/>
+        <img id="modal-image" src="nature-35.png"/>
       </div>
       <div class="modal-project-description">
         <div class="description-text">
@@ -669,8 +525,9 @@
     </div>
   </div>
 
-  <script src="./javascript/script.js"></script>
+  
   <script src="./javascript/objectData.js"></script>
+  <script src="./javascript/script.js"></script>
 </body>
 
 </html>

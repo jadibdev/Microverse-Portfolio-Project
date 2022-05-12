@@ -9,21 +9,30 @@ const projectList = [
     source: '#',
   },
   {
-    name: 'Tonic',
+    name: 'Multi-Post Stories',
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    featured_image: 'nature-35.png',
-    technologies: ['HTML', 'CSS', 'JavaScript'],
+    featured_image: 'multi-post-stories2.png',
+    technologies: ['html-label.png', 'css-label.png', 'javascript-label.png'],
     live: '#',
     source: '#',
   },
   {
-    name: 'Multi-Post Stories',
+    name: 'Facebook 360',
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    featured_image: 'multi-post-stories2.png',
-    technologies: ['HTML', 'CSS', 'JavaScript'],
+    featured_image: 'Snapshoot-Portfolio.png',
+    technologies: ['html-label.png', 'css-label.png', 'javascript-label.png'],
     live: '#',
     source: '#',
   },
+  {
+    name: 'Uber Navigation',
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    featured_image: 'multi-post-stories.png',
+    technologies: ['html-label.png', 'css-label.png', 'javascript-label.png'],
+    live: '#',
+    source: '#',
+  },
+
 ];
 
 const createMainElements = (elem, classes) => {
@@ -48,7 +57,7 @@ for (let index = 0; index < projectList.length; index += 1) {
   const subtitleMain = createMainElements('div', 'project-subtitle');
 
   const subtitleChildleft = createMainElements('div', 'project-subtitle-left');
-  subtitleChildleft.textContent = "CANOPY";
+  subtitleChildleft.textContent = 'CANOPY';
 
   const subtitleChildright = createMainElements('div', 'project-subtitle-right');
 
@@ -73,7 +82,6 @@ for (let index = 0; index < projectList.length; index += 1) {
   projectDesc.textContent = projectList[index].description;
   projectDescDiv.appendChild(projectDesc);
 
-
   const technologies = createMainElements('ul', 'project-labels');
   for (let i = 0; i < projectList[index].technologies.length; i += 1) {
     const li = createMainElements('li', '');
@@ -83,7 +91,7 @@ for (let index = 0; index < projectList.length; index += 1) {
     technologies.appendChild(li);
   }
 
-  const button = createMainElements('button', 'see-project-button');
+  const button = createMainElements('button', 'see-project-button see-close-project');
   button.type = 'button';
   button.id = `project-${index + 1}`;
   button.dataProjectIndex = index;

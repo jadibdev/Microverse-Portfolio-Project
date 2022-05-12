@@ -970,3 +970,7 @@ ul {
   letter-spacing: 0.03em;
   color: #396df2;
 }
+
+#modal-image {
+  width: 100%;
+}
