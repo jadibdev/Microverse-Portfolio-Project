@@ -186,6 +186,7 @@ ul {
   font-size: 13px;
   line-height: 16px;
   color: #344563;
+  margin-right: 10px;
 }
 
 .project-subtitle-right {
@@ -255,6 +256,7 @@ ul {
   line-height: 24px;
   letter-spacing: 0.03em;
   color: #396df2;
+  background: white;
 }
 
 .see-project-button:hover {
@@ -688,6 +690,7 @@ ul {
   .project-description {
     margin-left: 575px;
     width: 496px;
+    color: #344563;
   }
 
   .project-labels {
