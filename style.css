@@ -1,7 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
 .display-none {
   display: none;
+}
+
+ul {
+  list-style-type: none;
 }
 
 .mobile-main {
@@ -33,8 +45,13 @@
 }
 
 @keyframes rotate-logo {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 .burger-menu {
@@ -143,6 +160,9 @@
 }
 
 .project-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   width: 295px;
   height: 36px;
   font-family: 'Poppins', sans-serif;
@@ -166,6 +186,7 @@
   font-size: 13px;
   line-height: 16px;
   color: #344563;
+  margin-right: 10px;
 }
 
 .project-subtitle-right {
@@ -206,6 +227,11 @@
   margin-top: 0;
 }
 
+.modal-project-description {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
 .project-labels {
   margin-top: 7px;
   padding-left: 0;
@@ -230,6 +256,7 @@
   line-height: 24px;
   letter-spacing: 0.03em;
   color: #396df2;
+  background: white;
 }
 
 .see-project-button:hover {
@@ -244,8 +271,13 @@
 }
 
 @keyframes change-color {
-  from { background-color: #396df2; }
-  to { background-color: gray; }
+  from {
+    background-color: #396df2;
+  }
+
+  to {
+    background-color: gray;
+  }
 }
 
 .multi-line {
@@ -466,7 +498,80 @@
   top: 4650px;
 }
 
-/* Desktop */
+/* Mobile pop up */
+.mobile-pop-up-background {
+  background: #c1c7d0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 375px;
+  height: 100vh;
+  padding: 10px;
+  overflow-y: auto;
+}
+
+.modal-body-mobile {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  position: relative;
+  width: auto;
+  background: #fff;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  margin: 10px auto;
+}
+
+.image-container-mobile {
+  height: 55%;
+  width: auto;
+}
+
+.image-container-mobile .mobile-popup-img {
+  width: 100%;
+  border-radius: 7px;
+  object-fit: cover;
+}
+
+.project-description-mobile {
+  left: 0;
+  top: 80px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.mobile-popup-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.botton-mobile-elements {
+  display: inline;
+}
+
+.buttons-mobile-popup {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 150px;
+  padding: 12px;
+  border: 1px solid #6070ff;
+  box-sizing: border-box;
+  border-radius: 8px;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #396df2;
+}
+
+.mobile-popup-skills {
+  margin-bottom: 20px;
+}
+
 @media only screen and (min-width: 768px) {
   .header {
     display: flex;
@@ -585,6 +690,7 @@
   .project-description {
     margin-left: 575px;
     width: 496px;
+    color: #344563;
   }
 
   .project-labels {
@@ -795,4 +901,85 @@
 .mobile-menu-items a {
   text-decoration: none;
   color: white;
+}
+
+.modal-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 36px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  margin: 12px 0;
+  color: #172b4d;
+}
+
+.desktop-popup-background {
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow-y: auto;
+  padding: 30px 50px;
+  background: #c1c7d0;
+}
+
+.desktop-popup-body {
+  background: white;
+  position: relative;
+  width: auto;
+  margin: 10px auto;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 8px;
+}
+
+/* desktop pop up */
+
+.modal-subtitle {
+  display: flex;
+  align-items: center;
+}
+
+.modal-skills {
+  padding: 0 20px 20px 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-project-labels {
+  display: flex;
+  margin-bottom: 20px;
+  gap: 5%;
+  justify-content: start;
+  padding-left: 0;
+  flex-wrap: wrap;
+}
+
+.buttons-desktop-popup {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 142px;
+  padding: 10px;
+  border: 1px solid #6070ff;
+  box-sizing: border-box;
+  border-radius: 8px;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #396df2;
+}
+
+#modal-image-desktop {
+  width: 100%;
+}
+
+#projects {
+  display: none;
 }
