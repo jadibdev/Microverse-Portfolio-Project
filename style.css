@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 body {
   font-family: 'Poppins', sans-serif;
 }
@@ -6,6 +7,7 @@ body {
 a {
   text-decoration: none;
 }
+
 .display-none {
   display: none;
 }
@@ -971,7 +973,7 @@ ul {
   color: #396df2;
 }
 
-#modal-image {
+#modal-image-desktop {
   width: 100%;
 }
 

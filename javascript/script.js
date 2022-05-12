@@ -22,9 +22,8 @@ const getSkillsList = (skillArray) => skillArray.map((item) => `<li><img alt="ht
 
 const setDataInMobilePopUp = (ev) => {
   const projectIndex = ev.target.getAttribute('data-project-index');
-  if(projectIndex !== null){
-    const project = projectObj.projectList[projectIndex];
-
+  if (projectIndex !== null) {
+    const project = projectObj.default.projectList[projectIndex];
     const title = document.getElementById('mobile-popup-title');
     title.innerText = project.name;
 
@@ -42,12 +41,12 @@ const setDataInMobilePopUp = (ev) => {
     liveButton.href = project.live;
     srcButton.href = project.source;
   }
-}
+};
 
 const setDataInDesktopPopUp = (ev) => {
   const projectIndex = ev.target.getAttribute('data-project-index');
-  if(projectIndex !== null){
-    const project = projectObj.projectList[projectIndex];
+  if (projectIndex !== null) {
+    const project = projectObj.default.projectList[projectIndex];
 
     const title = document.getElementById('dektop-modal-title-text');
     title.innerText = project.name;
@@ -66,7 +65,7 @@ const setDataInDesktopPopUp = (ev) => {
     liveButton.href = project.live;
     srcButton.href = project.source;
   }
-}
+};
 
 function togglePopUp(ev) {
   let div = document.querySelector('#mobile-popup');

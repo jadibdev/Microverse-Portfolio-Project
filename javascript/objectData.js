@@ -107,4 +107,4 @@ for (let index = 0; index < projectList.length; index += 1) {
   getProjectListParentDiv.append(mainDiv);
 }
 
-export {projectList};
+export default { projectList };
