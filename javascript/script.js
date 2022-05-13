@@ -78,3 +78,16 @@ toggleMenuButton.forEach((item) => {
 seeCloseProjectButton.forEach((item) => {
   item.addEventListener('click', togglePopUp);
 });
+
+const form = document.getElementById('form');
+const email = document.getElementById('email');
+const submitButton = document.getElementById('submit-button');
+
+form.addEventListener('submit', (event) => {
+  console.log('is this working?');
+  if (email.value !== email.value.toLowerCase()) {
+    submitButton.setCustomValidity('All emails must be in lower case!!');
+    // submitButton.reportValidity();
+    event.preventDefault();
+  }
+});
