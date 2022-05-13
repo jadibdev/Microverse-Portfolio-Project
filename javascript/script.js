@@ -1,5 +1,3 @@
-import * as projectObj from './objectData.js';
-
 const toggleMenuButton = document.querySelectorAll('.toggle-mobile-menu');
 const seeCloseProjectButton = document.querySelectorAll('.see-close-project');
 
@@ -12,7 +10,7 @@ const getSkillsList = (skillArray) => skillArray.map((item) => `<li><img alt="ht
 const setDataInMobilePopUp = (ev) => {
   const projectIndex = ev.target.getAttribute('data-project-index');
   if (projectIndex !== null) {
-    const project = projectObj.default.projectList[projectIndex];
+    const project = projectList[projectIndex];
     const title = document.getElementById('mobile-popup-title');
     title.innerText = project.name;
 
@@ -35,7 +33,7 @@ const setDataInMobilePopUp = (ev) => {
 const setDataInDesktopPopUp = (ev) => {
   const projectIndex = ev.target.getAttribute('data-project-index');
   if (projectIndex !== null) {
-    const project = projectObj.default.projectList[projectIndex];
+    const project = projectList[projectIndex];
 
     const title = document.getElementById('dektop-modal-title-text');
     title.innerText = project.name;
@@ -79,14 +77,38 @@ seeCloseProjectButton.forEach((item) => {
   item.addEventListener('click', togglePopUp);
 });
 
-const form = document.getElementById('form');
+const form = document.getElementById('contact-form');
 const email = document.getElementById('email');
 const submitButton = document.getElementById('submit-button');
+submitButton.setCustomValidity('');
+
+let validation = () => {
+  let error = false;
+  
+  if (email.value !== email.value.toLowerCase()) {
+    error = true;
+    submitButton.setCustomValidity('All emails must be in lower case!!');
+    submitButton.reportValidity();
+    console.log('error');
+    
+  }
+  return error;
+}
 
 form.addEventListener('submit', (event) => {
+<<<<<<< HEAD
   if (email.value !== email.value.toLowerCase()) {
     submitButton.setCustomValidity('All emails must be in lower case!!');
     event.preventDefault();
+=======
+  console.log(event);
+  console.log(email);
+  event.preventDefault();
+  let error = validation();
+  if(!error){
+    console.log('no error');
+    form.submit();
+>>>>>>> 84f842dd4a02b3eff0c2238c747b0a6b3b61161d
   }
 });
 
