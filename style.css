@@ -468,7 +468,7 @@ ul {
   color: #b3bac5;
 }
 
-.get-in-touch {
+#get-in-touch {
   width: 140px;
   height: 48px;
   border: 1px solid #cfd8dc;
@@ -800,7 +800,7 @@ ul {
 
   #contact-form-shapes-background {
     position: relative;
-    top: 0;
+    top: -750px;
     right: 60px;
   }
 
