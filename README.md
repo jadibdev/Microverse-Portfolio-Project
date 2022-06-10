@@ -1,3 +1,6 @@
+## Description
+This is a project that uses a pre-designed Figma template to build a website that can serve as a web development portfolio.
+
 ![Portfolio](https://user-images.githubusercontent.com/6723417/168104984-92065738-3f90-4360-8605-1c42593ec1f9.png)
 
 ![](https://img.shields.io/badge/Microverse-blueviolet)
