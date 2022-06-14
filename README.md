@@ -1,5 +1,5 @@
 ## Description
-This is a project that uses a pre-designed Figma template to build a website that can serve as a web development portfolio. The website features a navigation menu for exploration, a hero section with a call to action, a projects section to showcase past work and a contact section.
+This is a project that uses a pre-designed Figma template to build a website that can serve as a web development portfolio. The website features a navigation menu for exploration, a hero section with a call to action, a projects section to showcase past work and a contact section. The website is built using CSS, Figma and HTML markup.
 
 ![Portfolio](https://user-images.githubusercontent.com/6723417/168104984-92065738-3f90-4360-8605-1c42593ec1f9.png)
 
@@ -9,7 +9,7 @@ This is a project that uses a pre-designed Figma template to build a website tha
 
 > This is a portfolio site that will showcase the projects I will be working on during the Microverse program.
 
-## Built With
+## Tools
 
 - CSS
 - Figma
