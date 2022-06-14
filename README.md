@@ -11,8 +11,8 @@ This is a project that uses a pre-designed Figma template to build a website tha
 
 ## Built With
 
-- HTML
 - CSS
+- Figma
 
 ## Getting Started
 
